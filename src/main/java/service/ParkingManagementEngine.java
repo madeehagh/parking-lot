@@ -1,11 +1,8 @@
 package service;
 
-import entity.AdminUser;
-import entity.ParkingLot;
 import entity.RateCard;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -14,7 +11,6 @@ import static entity.ParkingLot.parkingLot;
 
 public class ParkingManagementEngine {
     private Map<Integer, String> parkingDetail;
-    private List<AdminUser> adminUsers;
     private Map<String, RateCard> userCarRates;
 
     public ParkingManagementEngine() {
